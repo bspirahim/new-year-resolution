@@ -33,7 +33,7 @@
     margin: 10px 0;
 }
 .primary-btn-outline{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 10px 0;
@@ -48,7 +48,6 @@
     background-color: #0074BC;
     color: whitesmoke;
     transition: 0.5s;
-    /* opacity: 0.75; */
 }
 
 /*---------------------------
@@ -121,6 +120,66 @@ My Plans section
  .contact-us h2{
     color: white;
  }
+ footer{
+    background-color: black;
+    color: white;
+ }
+ .footer-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+ }
+ .footer-description p{
+    width: 50%;
+ }
+ .e-mail{
+    margin: 15px 0;
+ }
+ .icon{
+    font-size: 30px;
+    margin: 15px 0;
+ }
+ .fa-facebook{
+    color: #4267B2;
+    margin-right: 10px;
+    cursor: pointer;
+    
+ }
+ .fa-twitter{
+    color: #1DA1F2;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+ .fa-youtube{
+    color: 	#FF0000;
+    cursor: pointer;
+ }
+ .input-email{
+    font-size: 15px;
+    padding: 10px;
+    margin: 15px 0;
+    background: transparent;
+    color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+ }
+ .primary-btn{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 8px 12px;
+    border: 2px solid #005FAC;
+    background-color: #0074BC;
+    color:whitesmoke ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    background-color: white;
+    color: #005FAC;
+    transition: 0.5s;
+}
 
 
  
