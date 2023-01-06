@@ -120,6 +120,38 @@ My Plans section
  .contact-us h2{
     color: white;
  }
+ /* --------------
+ quotes section
+ ----------------- */ 
+ .quotes-heading{
+    text-align: center;
+    margin-bottom: 10px;
+
+ }
+ hr{
+    width: 100px;
+    border: none;
+    border-bottom: 2px dashed gray;
+    margin: auto;
+    margin-bottom:30px;
+ }
+ .card{
+    display: flex;
+    justify-content: space-between;
+ }
+ .quotes-text{
+    width: 400px;
+    height: 100px;
+    /* border: 1px solid gray; */
+    padding:25px 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    margin: 20px 0;
+    border-radius: 5px;
+ }
+ /*---------
+  footer
+ -------- */
  footer{
     background-color: black;
     color: white;
