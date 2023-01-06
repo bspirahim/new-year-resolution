@@ -55,7 +55,7 @@
 /*---------------------------
  passing year and failures styles
 --------------------------- */
-.passing-year{
+.container{
     margin: 150px;
 }
 .failures{
@@ -85,5 +85,26 @@
     font-size: 25px;
     color: #00B8EE;
 }
+
+/*--------------- 
+My Plans section
+-----------------*/
+.my-plans{
+    display: flex;
+    justify-content: space-between;
+}
+.my-plans-heading{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.plans-feature{
+    text-align: center;
+}
+.plans-feature img{
+    width: 75px;
+}
+
+ 
 
 
