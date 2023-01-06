@@ -18,7 +18,6 @@
 .header-title{
     width: 400px;
     text-align: right;
-    /* padding: 180px; */
     float: right;
     color: whitesmoke;
     position: relative;
@@ -104,6 +103,25 @@ My Plans section
 .plans-feature img{
     width: 75px;
 }
+
+/*--------------
+ contact section
+ ---------------- */
+
+ .contact{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+
+ }
+ .contact-us{
+    padding: 50px;
+ }
+ .contact-us h2{
+    color: white;
+ }
+
 
  
 
