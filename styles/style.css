@@ -3,6 +3,9 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/*------------------------
+ header and banner styles
+ ------------------------ */
 .header{
     background-image: url("../images/banner/banner3.png");
     background-size: 100%;
@@ -48,3 +51,39 @@
     transition: 0.5s;
     /* opacity: 0.75; */
 }
+
+/*---------------------------
+ passing year and failures styles
+--------------------------- */
+.passing-year{
+    margin: 150px;
+}
+.failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.failures-img img{
+    width: 450px;
+}
+.failures-description{
+    padding-left: 40px;
+    margin-top: 40px;
+    
+}
+.failures-description h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.failures-description p{
+    font-size: 15px;
+    margin: 10px 0;
+    color: gray;
+}
+.fa-solid{
+    margin-right: 12px;
+    font-size: 25px;
+    color: #00B8EE;
+}
+
+
