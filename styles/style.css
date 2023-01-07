@@ -102,6 +102,10 @@ My Plans section
 .plans-feature img{
     width: 75px;
 }
+.plans-feature p{
+    color: gray;
+}
+
 
 /*--------------
  contact section
@@ -162,7 +166,7 @@ My Plans section
     padding: 100px 150px;
  }
  .footer-description p{
-    width: 50%;
+    width: 60%;
  }
  .e-mail{
     margin: 15px 0;
